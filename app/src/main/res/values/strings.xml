@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Hujan</string>
     <string name="login">Log in</string>
+    <string name="lalala">Lalala</string>
+    <string name="pesan">Pesan</string>
+    <string name="harga">harga</string>
 </resources>

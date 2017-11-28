@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/imgItemImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="#123456"
+        android:contentDescription="@string/lalala" />
+
+    <TextView
+        android:id="@+id/tvItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_toEndOf="@id/imgItemImage"
+        android:layout_toRightOf="@id/imgItemImage"
+        android:text="@string/app_name"
+        android:textColor="#000000"
+        android:textSize="26sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvItemHarga"
+        android:text="@string/harga"
+       android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"/>
+
+
+
+</RelativeLayout>

@@ -4,13 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.zulfakar.hujan.LoginSukses">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ini_berhasil"
+        android:text="ListView"
+        android:layout_gravity="center"
         android:id="@+id/tvBerhasil"
-        android:textSize="36sp"/>
+        android:textSize="36sp"
+        android:textColor="#000"/>
+
+    <ListView
+        android:id="@+id/lvItems"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 </LinearLayout>
